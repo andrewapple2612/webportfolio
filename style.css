@@ -1,3 +1,8 @@
+html{
+  background-color: gray;
+  color: white;
+}
+
 h1 {
   font-family: helvetica, arial, sans-serif;
   text-align: center;
@@ -6,6 +11,11 @@ h1 {
 body {
   width: 640px;
   margin: 0 auto;
+}
+
+.profile img{
+  width: 30%;
+
 }
 
 .full-img {
@@ -20,4 +30,9 @@ body {
   width: 20%;
   float: left;
   cursor: pointer;
+}
+a {
+  align-items: center;
+  text-align: right;
+  font-size: 9px;
 }
